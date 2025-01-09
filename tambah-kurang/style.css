@@ -1,0 +1,33 @@
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+button{
+    cursor: pointer;
+    height: 50px;
+    width: 45px;
+}
+.card{
+    background-color: blueviolet;
+    display: flex;
+    height: 300px;
+    width: 500px;
+    border-radius: 25px;
+}
+.tengah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+    padding-left: 75px;
+    margin-right: 70px;
+    padding-right: 55px;
+}
