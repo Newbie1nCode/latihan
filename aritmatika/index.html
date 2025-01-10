@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <section>
+                <h1>Kalkulator sederhana</h1>
+                <label for="input">angka 
+                <input type="text" id="inpt1">
+                </label>
+
+
+                <label for="input">angka
+                <input type="text" id="inpt2">
+                </label>
+                <!-- ini adalah cara manambahkan opsi di html -->
+                <label for="operation">Operasi:</label>
+                <select id="operation">
+                  <option value="Tambah">Tambah (+)</option>
+                  <option value="Kali">Kali (x)</option>
+                  <option value="Bagi">Bagi (/)</option>
+                </select>
+
+                <button id="btn">Hitung</button>
+
+                <h1 id="Hasil"></h1>
+            </section> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

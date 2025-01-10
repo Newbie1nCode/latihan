@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 95vh;
+    width: 75vh;
+    border-radius: 25px;
+}
+section{
+    flex-direction: column; 
+    display: inline-flex;
+    margin-left: 140px;
+    padding-left: 125px;
+}
+label{
+    margin-top: 5px;
+    padding-top: 3px;
+}
+button{
+    margin-top: 7px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+select{
+    cursor: pointer;
+}
+h3{
+    margin-top: 7px;
+    padding-top: 4px;
+    color: white;
+}

@@ -1,0 +1,38 @@
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: skyblue;
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+section p{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+}
+input{
+    margin-left: 5px;
+    padding-left: 3px;
+    border-radius: 10px;
+}
+button{
+    cursor: pointer;
+}
