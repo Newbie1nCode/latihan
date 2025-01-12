@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+label{
+    color: white;
+}
+.card{
+    background-color: blueviolet;
+    height: 500px;
+    width:550px;
+    border-radius: 30px;
+}
+label{
+   display: flex;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+   margin-top:80px;
+   padding-top:55px;
+   font-size: medium;
+}
+input{
+    margin-left: 8px;
+    padding-left: 4px;
+    border-radius: 10px;
+}
+button{
+    margin-top: 45px;
+    margin-left: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6c63ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
