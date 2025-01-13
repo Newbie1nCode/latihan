@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    display: inline-flex;
+    padding-right: 15px;
+    margin-left: 130px;
+}
+.card{
+    background-color: black;
+    height: 450px;
+    width: 450px;
+    border-radius: 25px;
+}
+h1, h2{
+    color: white;
+}
+h1{
+    text-align: center;
+}

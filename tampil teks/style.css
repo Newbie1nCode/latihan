@@ -1,0 +1,35 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+.card{
+    background-color: green;
+    height: 400px;
+    width: 450px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+section{
+    margin-top: 25px;
+    padding-top: 10px;
+}
+button{
+    margin-top: 25px;
+    margin-left: 200px;
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;   
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+
+}
+h1, section, button {
+    color: white;
+}
+
