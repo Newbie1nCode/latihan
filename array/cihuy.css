@@ -1,0 +1,26 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.card{
+    background-color: blueviolet;
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+
+}
+h1{
+    text-align: center;
+}
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    margin-left: 210px;
+    cursor: pointer;
+    
+}
