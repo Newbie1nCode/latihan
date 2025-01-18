@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher Tool</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Caesar Cipher Encryption</h1>
+        <div class="form-group">
+            <label for="inputText">Masukan Text untuk dienkripsi:</label>
+            <textarea id="inputText" placeholder="Masukan Text..."></textarea>
+        </div>
+        <div class="form-group">
+            <label for="shift">Geser Berapa Jauh (0-25):</label>
+            <input type="number" id="shift" min="0" max="25" value="0">
+        </div>
+        <button id="encryptButton">Encrypt</button>
+        <div class="output-group">
+            <h2>Encrypted Text:</h2>
+            <textarea id="outputText" readonly></textarea>
+        </div>
+    </div>
+    <script src="scripting.js"></script>
+</body>
+</html>
